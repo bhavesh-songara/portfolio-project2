@@ -47,7 +47,6 @@ body {
   color: #f8f8f8;
 }
 
-
 .intro-heading > h3 {
   font-style: normal;
   font-weight: bold;
@@ -55,13 +54,11 @@ body {
   line-height: 42px;
 }
 
-
-
 .intro-para > p {
   font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .intro-para > button {
@@ -81,9 +78,9 @@ line-height: 24px;
 
 .work-exp > div > h2 {
   font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 56px;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
 }
 
 .job {
@@ -92,9 +89,9 @@ line-height: 56px;
 
 .job > div > h4 {
   font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 28px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .job > div > h4 > span {
@@ -103,9 +100,9 @@ line-height: 28px;
 
 .job > div > p {
   font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 /* Skill section  */
@@ -114,11 +111,18 @@ line-height: 24px;
   padding: 2rem 0;
 }
 
+.skill > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+}
+
 .skill-container {
   width: 620px;
 }
 
-.skill-container > div{
+.skill-container > div {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -126,34 +130,172 @@ line-height: 24px;
   height: 48px;
 }
 
-.skill-container   p {
+.skill-container > div > div {
+  width: 500px;
+}
+
+.skill-container p {
   margin: 0;
 }
 
-
 .skill-bar {
-  width: 380px;
+  width: 450px;
   height: 16px;
   background-color: #f8f8f8;
 }
 
 .skill-bar-val {
   height: 100%;
-  background-color: #3667A6;
+  background-color: #3667a6;
   z-index: 2;
 }
 
-.skill-container div:nth-child(1)  .skill-bar-val {
+.skill-container div:nth-child(1) .skill-bar-val {
   width: 95%;
 }
-.skill-container div:nth-child(2)  .skill-bar-val {
+.skill-container div:nth-child(2) .skill-bar-val {
   width: 90%;
-}.skill-container div:nth-child(3)  .skill-bar-val {
+}
+.skill-container div:nth-child(3) .skill-bar-val {
   width: 93%;
-}.skill-container div:nth-child(4)  .skill-bar-val {
+}
+.skill-container div:nth-child(4) .skill-bar-val {
   width: 85%;
-}.skill-container div:nth-child(5)  .skill-bar-val {
+}
+.skill-container div:nth-child(5) .skill-bar-val {
   width: 90%;
-}.skill-container div:nth-child(6)  .skill-bar-val {
+}
+.skill-container div:nth-child(6) .skill-bar-val {
   width: 80%;
+}
+
+/* Project section  */
+.project {
+  padding: 2rem 10rem;
+}
+
+.project > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 35px;
+}
+.project-grid > div {
+  width: 540px;
+}
+
+.project-grid > div > h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #2a3d66;
+  margin: 1rem 0;
+}
+
+.project-grid > div > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+/* Photo library */
+.photo-library {
+  padding: 3rem 5rem;
+  padding-right: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.photo-library > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.photo-library > h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.photo-grid > img {
+  margin: 0;
+  padding: 0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+/* Footer  */
+footer {
+  padding: 4rem 6rem;
+  display: grid;
+  grid-template-columns: 50% 30%;
+  grid-gap: 150px;
+}
+
+.footer-main > h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.footer-main > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-link > div > i {
+  font-size: 20px;
+  margin-right: 1rem;
+}
+
+.footer-link > div > a {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link > div {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .btn-container > button {
+    width: 400px;
+  }
+
+  .btn-container > button:nth-of-type(2) {
+    margin-top: 1rem;
+  }
+  
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
