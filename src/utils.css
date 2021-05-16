@@ -1,0 +1,42 @@
+/* Utilities Classes  */
+
+.primary {
+  color: #2A3D66;
+}
+
+.primary-bg {
+  background-color: #2A3D66;
+}
+
+.secondary {
+  color: #3667A6;
+}
+
+.secondary-bg {
+  background-color: #3667A6;
+}
+
+.white {
+  color: #F8F8F8;
+}
+
+.white-bg {
+  background-color: #F8F8F8;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 12px 40px;
+}
+
+.outline-btn {
+  border: 1px solid #3667A6;
+}
+
+.btn:hover {
+  background-color: #3667A6;
+  color: #F8F8F8;
+}
